@@ -8,7 +8,7 @@ const layout = (props_args) => (
         {props_args.children}
 
     </main>
-    </Aux> /*Or we could have used used Div as single element is needed in return */
+    </Aux> 
 )
-
+/*Or we could have used used Div as single element is needed in return */
 export default layout;

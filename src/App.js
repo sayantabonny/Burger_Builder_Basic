@@ -1,11 +1,11 @@
-import layout from './Components/Layout/Layout'
+import Layout from './Components/Layout/Layout'
 
 function App() {
   return (
     <div className="App">
-      <layout>
+      <Layout>
        <h1>Testing</h1>  
-      </layout>
+      </Layout>
     </div>
   );
 }
