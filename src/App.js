@@ -6,7 +6,6 @@ function App() {
       <Layout>
        <h1>Testing</h1>  
        <BurgerBuilder/>
-       <BurgerBuilder>Rusha is BB</BurgerBuilder>
       </Layout>
     </div>
   );
