@@ -1,4 +1,4 @@
-import classes from '*.module.css';
+import classes from './BurgerIngridients.module.css'
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 
@@ -33,12 +33,12 @@ class BurgerIngridient extends Component{
             default:
                     ingridient=null;
         }
-       
+       return ingridient;
     }
 }
 
 
-BurgerIngridient.prototype={
+BurgerIngridient.proptype={
     type: PropTypes.string.isRequired
 }; //type validation
 
