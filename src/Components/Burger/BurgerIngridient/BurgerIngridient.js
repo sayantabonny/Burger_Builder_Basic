@@ -13,8 +13,8 @@ class BurgerIngridient extends Component{
             case ('bread-top'):
                 ingridient=
                 (<div className={classes.BreadTop}>
-                    <div className={classes.Seed1}></div>
-                    <div className={classes.Seed2}></div>
+                    <div className={classes.Seeds1}></div>
+                    <div className={classes.Seeds2}></div>
                  </div>)
     
                 break;
@@ -28,7 +28,7 @@ class BurgerIngridient extends Component{
                 break;
     
             case ('salad'):
-                    ingridient=<div className={classes.salad}></div>
+                    ingridient=<div className={classes.Salad}></div>
                     break;
             default:
                     ingridient=null;
