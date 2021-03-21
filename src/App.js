@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       <Layout>
-       <h1>Testing</h1>  
        <BurgerBuilder/>
       </Layout>
     </div>

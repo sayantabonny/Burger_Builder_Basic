@@ -13,8 +13,8 @@ class BurgerIngridient extends Component{
             case ('bread-top'):
                 ingridient=
                 (<div className={classes.BreadTop}>
-                    <div className={classes.seed1}></div>
-                    <div className={classes.seed2}></div>
+                    <div className={classes.Seed1}></div>
+                    <div className={classes.Seed2}></div>
                  </div>)
     
                 break;
