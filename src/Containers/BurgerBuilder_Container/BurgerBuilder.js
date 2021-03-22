@@ -35,6 +35,9 @@ class BurgerBuilder extends Component{
     checkoutHandler= ()=>{
         this.setState({checkout:true})
     }
+    CheckOutCancel= ()=>{
+        this.setState({checkout:false})
+    }
 
     updatePurchase()
     {
@@ -97,7 +100,7 @@ class BurgerBuilder extends Component{
 
         return (
             <Aux>
-                <Modal show={this.state.checkout}>
+                <Modal show={this.state.checkout} modalClosed={this.CheckOutCancel}>
                     <OrderSummary ingredients={this.state.ingredients}/>
                 </Modal>
                 <Burger ingredients={this.state.ingredients}/>
