@@ -7,7 +7,6 @@ import Aux from '../../../Hoc/hoc_Aux'
 
 const sideDrawer=(props)=>{
 
-    //
     return(
 
         <Aux>
